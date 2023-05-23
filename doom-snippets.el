@@ -53,9 +53,5 @@ yasnippet directory."
   (add-to-list 'yas-snippet-dirs 'doom-snippets-dir)
   (yas-load-directory doom-snippets-dir t))
 
-;;;###autoload
-(eval-after-load 'yasnippet
-  (lambda () (doom-snippets-initialize)))
-
 (provide 'doom-snippets)
 ;;; doom-snippets.el ends here
